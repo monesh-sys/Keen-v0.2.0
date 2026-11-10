@@ -1,0 +1,21 @@
+// Arithmetic and precedence
+print(10 + 5 * 2)
+print((10 + 5) * 2)
+print(10 - 3 - 2)       // left to right: 5
+print(100 / 10 / 2)     // left to right: 5.0
+print(17 % 5)
+
+// Comparison
+print(10 > 5)
+print(10 == 10)
+print(10 != 10)
+print(3 <= 2)
+print("apple" < "banana")
+
+// Logical operators always give true or false
+print(true && false)
+print(true || false)
+print(!false)
+print(1 && "text")      // true  (both are truthy)
+print("" || 0)          // false (both are falsy)
+print(5 > 3 && 2 > 1 || false)

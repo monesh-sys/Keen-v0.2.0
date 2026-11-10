@@ -1,0 +1,13 @@
+// Try:  keen run examples/debug_demo.keen --trace
+//       keen run examples/debug_demo.keen --debug
+let total = 0
+const rate = 2
+
+fn double(n) {
+    return n * rate
+}
+
+for i in range(1, 4) {
+    total += double(i)
+}
+print("total =", total)

@@ -1,0 +1,5 @@
+// This program intentionally contains mistakes. Try: keen check examples/errors_demo.keen
+const limit = 10
+limit = 20
+print(lmit)
+break

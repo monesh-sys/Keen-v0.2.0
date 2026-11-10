@@ -1,0 +1,12 @@
+// Arithmetic: + - * / % and parentheses
+print(10 + 20)
+print(10 - 4 * 2)
+print((10 - 4) * 2)
+print(7 / 2)
+print(7 % 3)
+print(-5 + 2)
+print(2.5 * 4)
+
+// Strings
+print("Welcome " + "Developer")
+print("Total: " + str(10 + 5))

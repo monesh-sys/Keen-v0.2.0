@@ -1,0 +1,25 @@
+let i = 0
+while i < 5 {
+    i += 1
+    if i == 2 { continue }
+    if i == 5 { break }
+    print("while:", i)
+}
+
+for n in range(1, 4) {
+    print("for:", n)
+}
+
+let total = 0
+for x in [10, 20, 30] {
+    total += x
+}
+print("total:", total)
+
+let names = ["ada", "alan"]
+push(names, "grace")
+for n in names {
+    print(n, "has", len(n), "letters")
+}
+names[0] = "Ada"
+print(names, names[-1])

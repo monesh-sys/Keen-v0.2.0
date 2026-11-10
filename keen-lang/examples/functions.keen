@@ -1,0 +1,37 @@
+fn add(a, b) {
+    return a + b
+}
+print(add(10, 20))
+
+fn welcome(name) {
+    print("Welcome " + name)
+}
+welcome("Developer")
+
+fn factorial(n) {
+    if n <= 1 {
+        return 1
+    }
+    return n * factorial(n - 1)
+}
+print("10! =", factorial(10))
+
+fn fib(n) {
+    if n < 2 { return n }
+    return fib(n - 1) + fib(n - 2)
+}
+print("fib(20) =", fib(20))
+
+// Closures work because functions remember where they were defined
+fn make_counter() {
+    let count = 0
+    fn next() {
+        count += 1
+        return count
+    }
+    return next
+}
+let counter = make_counter()
+counter()
+counter()
+print("counter:", counter())

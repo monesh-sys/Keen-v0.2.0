@@ -1,0 +1,25 @@
+let name = "Monesh"
+const version = 0.2
+print(name)
+
+if version > 0.1 {
+    print("KEEN is improving")
+} else {
+    print("Old version")
+}
+
+// Nested conditions
+let age = 17
+let has_ticket = true
+
+if age >= 12 {
+    if has_ticket && age < 18 {
+        print("Teen ticket accepted")
+    } else if has_ticket {
+        print("Adult ticket accepted")
+    } else {
+        print("Please buy a ticket")
+    }
+} else {
+    print("Too young for this ride")
+}

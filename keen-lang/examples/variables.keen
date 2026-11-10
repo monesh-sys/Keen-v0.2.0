@@ -1,0 +1,16 @@
+// Variables and constants
+let name = "Monesh"
+let age = 17
+const language = "KEEN"
+
+print("Name:", name)
+print("Age:", age)
+print("Language:", language)
+
+age = age + 1
+age += 1
+print("Age after two birthdays:", age)
+
+let nothing = null
+print(nothing, true, 3.14, [1, "two", 3.0])
+print(type(age), type(3.14), type("x"), type(true), type(nothing), type([1]))

@@ -1,0 +1,23 @@
+// Expressions can continue on the next line after an operator
+let subtotal = 10 +
+    20 +
+    30
+
+let ready = subtotal > 50 &&
+    subtotal < 100
+
+print("subtotal:", subtotal)
+print("ready:", ready)
+
+// Calls and arrays may span lines too
+print(
+    "a",
+    "b",
+    [1,
+     2,
+     3]
+)
+
+// Strings: escapes and both quote styles
+print("Tab:\tdone\nNew line above; quote: \"hi\"; unicode: \u00e9")
+print('single quotes work too')
